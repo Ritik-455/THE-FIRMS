@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Nunito:wght@400;700;900&display=swap');
+
+:root {
+    --fs-sm: 10px;
+    --fs-md: 12px;
+    --fs-lg: 14px;
+    --fs-xl: 17px;
+    --fs-2xl: 18px;
+    --fs-3xl: 24px;
+    --fs-4xl: 30px;
+    --fs-5xl: 40px;
+    --fs-6xl: 44px;
+    --fs-7xl: 48px;
+    --fs-8xl: 52px;
+
+}
+
+.text_10 {
+    font-size: var(--fs-sm);
+}
+
+.text_12 {
+    font-size: var(--fs-md);
+}
+
+.text_14 {
+    font-size: var(--fs-lg);
+}
+
+.text_17 {
+    font-size: var(--fs-xl);
+}
+
+.text_18 {
+    font-size: var(--fs-2xl);
+}
+
+.text_24 {
+    font-size: var(--fs-3xl);
+}
+
+.text_30 {
+    font-size: var(--fs-4xl);
+}
+
+.text_40 {
+    font-size: var(--fs-5xl);
+}
+
+.text_44 {
+    font-size: var(--fs-6xl);
+}
+
+.text_48 {
+    font-size: var(--fs-7xl);
+}
+
+.text_52 {
+    font-size: var(--fs-8xl);
+}
+
+.lh_133 {
+    line-height: 133.4%;
+}
+
+.lh_176 {
+    line-height: 176%;
+}
+
+.fw_400 {
+    font-weight: 400;
+}
+
+.fw_700 {
+    font-weight: 700;
+}
+
+.fw_900 {
+    font-weight: 900;
+}
+
+.font-nunito {
+font-family: 'Nunito', sans-serif;
+
+}
+.font-lora{
+    font-family: 'Lora', serif;
+}
+.lts-104{
+    letter-spacing: 1.04px;
+}
+.lts-36{
+    letter-spacing: 0.36px;
+}
+.lts-28{
+    letter-spacing: 0.28px;
+}
+.lts-9{
+    letter-spacing: 0.9px;
+}
+.lts-88{
+    letter-spacing: 0.88px;
+}
+.lts-15{
+    letter-spacing: 1.5px;
+}
+.lts-34{
+    letter-spacing: 0.34px;
+}
+.lts-312{
+    letter-spacing: 3.12px;
+}
+.lts-12{
+    letter-spacing: 1.2px;
+}
+.lts-2{
+    letter-spacing: 2px;
+}
