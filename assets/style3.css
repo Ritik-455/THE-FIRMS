@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none !important;
+    box-sizing: border-box;
+}
+
+.text_black {
+    color: #1E1E1E;
+}
+
+.max-w-para {
+    max-width: 583px;
+}
+
+.max-w-points {
+    max-width: 505px;
+}
+
+/* padding-----marginn----here */
+.pt_22px {
+    padding-top: 22px;
+}
+
+.pt_26 {
+    padding-top: 26px;
+}
+
+.gap_10 {
+    gap: 10px;
+}
+
+
+/* padding-----marginn----here */
