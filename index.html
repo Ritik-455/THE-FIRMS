@@ -1,13 +1,87 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Bootstrap demo</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
-  </head>
-  <body>
-    <h1>Hello, world!</h1>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The Firm</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.css"
+    integrity="sha512-wR4oNhLBHf7smjy0K4oqzdWumd+r5/+6QO/vDda76MW5iug4PT7v86FoEkySIJft3XA0Ae6axhIvHrqwm793Nw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.css"
+    integrity="sha512-6lLUdeQ5uheMFbWm3CP271l14RsX1xtx+J5x2yeIDkkiBpeVTNhTqijME7GgRKKi6hCqovwCoBTlRBEC20M8Mg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./assets/style.css">
+</head>
+<body>
+  <header>
+    <div class="container pt-3">
+      <nav class="d-flex justify-content-between align-items-center">
+        <img class="cursor-pointer" src="./assets/images/logo.png" alt="logo">
+        <ul class="d-flex align-items-center mb-0 gap-4 gap-xxl-5 mobile_view" id="navbar">
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 home_line_nav">Home</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Solutions</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Cases</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">About Us</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Blog</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Contact Us</a></li>
+          <li><button class="nav-btn text-white font-nunito text_18 fw_700 lts_9">Get in Touch</button></li>
+        </ul>
+        <div onclick="openNav()" class="menu d-block d-xl-none z-7">
+          <span></span>
+          <span class="my-2"></span>
+          <span></span>
+        </div>
+      </nav>
+    </div>
+    <!-- hero-section-start -->
+    <div class="bg-hero-img">
+    </div>
+  </header>
+  <section class="position-relative">
+    <div class="container pt-100">
+      <h1 class="text-black mb-0 text-center font-nunito text_44 fw_900 lh_133 lts-88">Our <span class="partner_line">Partner</span></h1>
+      <div class="slick mt-5">
+        <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
+          <img class="slick-img h-64 w-64" src="./assets/images/microsoft-img.png" alt="microsoft-img">
+        </div>
+        <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
+          <img class="slick-img" src="./assets/images/google-img.png" alt="google-img">
+        </div>
+        <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
+          <img class="slick-img w-162 h-60" src="./assets/images/firefox-world-logo.png" alt="firefox-img">
+        </div>
+        <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
+          <img class="slick-img w-160 h-60" src="./assets/images/safari-img.png" alt="safari-img">
+        </div>
+        <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
+          <img class="slick-img" src="./assets/images/google-img.png" alt="google-img">
+        </div>
+      </div>
+    </div>
+    <div class="slider_btn d-flex justify-content-center align-items-center next">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+        <path d="M1.5 1L9 8.5L1.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+    <div class="slider_btn d-flex justify-content-center align-items-center back">
+      <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
+        <path d="M8.5 1L1 8.5L8.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+      </svg>
+    </div>
+  </section>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+    integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="./assets/app.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+    crossorigin="anonymous"></script>
+</body>
+
 </html>
