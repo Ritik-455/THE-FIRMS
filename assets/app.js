@@ -19,6 +19,7 @@ function openNav() {
           slidesToShow: 4,
           slidesToScroll: 1,
           infinite: true,
+          autoplay:true,
         }
       },
       {
@@ -27,6 +28,7 @@ function openNav() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          
         }
       },
       {
