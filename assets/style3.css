@@ -12,6 +12,7 @@
     padding-top: 22px;
 }
 
+
 .pt_26 {
     padding-top: 26px;
 }
@@ -80,6 +81,19 @@
 
 .mt_30 {
     margin-top: 30px;
+}
+
+.pt_23 {
+    padding-top: 23px;
+}
+
+.pb_48 {
+    padding-bottom: 48px;
+}
+
+.py_43 {
+    padding-top: 43px;
+    padding-bottom: 43px;
 }
 
 
@@ -330,6 +344,73 @@
     max-width: 505px;
 }
 
+/* ------coaching----sectin--- */
+.coaching_box {
+    max-width: 340px;
+    width: 100%;
+    padding: 10px 11px 32px 10px;
+    border-radius: 15px;
+    border: 1px solid rgba(250, 202, 16, 0.40);
+    background: #FFF;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
+    transition: 300ms linear;
+}
+
+.coaching_box:hover {
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
+}
+
+.box_line {
+    width: 100%;
+    max-width: 319px;
+    height: 1px;
+    background: #e7e7e7;
+}
+
+.coaching_btn {
+    padding: 12px 30px;
+    border-radius: 5px;
+    background-color: #1E1E1E;
+    box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+    border: 1px solid transparent;
+    transition: 300ms linear;
+}
+
+.coaching_btn:hover {
+    background: #FACA10;
+
+}
+
+.max_w_coach {
+    max-width: 547px;
+}
+
+.meeting_coach {
+    width: 100%;
+    max-width: 456px;
+    padding: 7.27px 8px 6.75px 8px;
+    border-radius: 25px;
+    background: #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.meeting_position {
+    bottom: -13%;
+    left: -13%;
+    z-index: -1;
+}
+
+/* @media (min-width:768px) {
+    .meeting_coach {
+        width: 456px;
+        padding: 7.27px 8px 6.75px 8px;
+        border-radius: 25px;
+        background: #FFF;
+        box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+    }
+
+} */
+
 @media(min-width:992px) {
     .py_45 {
         padding-top: 89px;
@@ -371,6 +452,15 @@
 
     .pt_15 {
         padding-top: 28px;
+    }
+
+    .pb_48 {
+        padding-bottom: 100px;
+    }
+
+    .py_43 {
+        padding-top: 80px;
+        padding-bottom: 80px;
     }
 
 
