@@ -6,6 +6,67 @@
     box-sizing: border-box;
 }
 
+ol,
+ul {
+    padding-left: 0 !important;
+}
+
+.cursor-pointer {
+    cursor: pointer;
+}
+
+.top-btn {
+    padding: 9px 21px 10px 22px;
+    border-radius: 5px;
+    background: #FACA10;
+    box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
+    border: none;
+    transition: 300ms linear;
+}
+
+.top-btn:hover {
+    background: #000;
+}
+
+.line_nav {
+    position: relative;
+}
+
+.line_nav::after {
+    position: absolute;
+    content: "";
+    bottom: 17%;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: yellow;
+    transition: all 0.3s linear;
+    z-index: -1;
+}
+
+.line_nav:hover::after {
+    width: 100%;
+    right: 0;
+}
+
+.home_line_nav {
+    position: relative;
+}
+
+.home_line_nav::after {
+    position: absolute;
+    content: "";
+    bottom: 17%;
+    left: 0;
+    width: 85%;
+    height: 4px;
+    background-color: yellow;
+    z-index: -1;
+}
+
+.z-7 {
+    z-index: 7;
+}
 
 /* padding-----marginn----here */
 .pt_22px {
@@ -42,6 +103,11 @@
     padding-top: 15px;
 }
 
+.py_47 {
+    padding-top: 47px;
+    padding-bottom: 47px;
+}
+
 
 .pt_18 {
     padding-top: 18px;
@@ -67,6 +133,10 @@
 
 .gap_20 {
     gap: 20px;
+}
+
+.pt_52 {
+    padding-top: 52px;
 }
 
 
@@ -463,9 +533,80 @@
         padding-bottom: 80px;
     }
 
+    .py_47 {
+        padding-top: 64px;
+        padding-bottom: 64px;
+    }
+
+    .pt_52 {
+        padding-top: 82px;
+    }
 
 
 
+
+}
+
+@media (max-width:992px) {
+    .mobile_view {
+        position: absolute;
+        background-color: transparent;
+        backdrop-filter: blur(50px);
+        height: 100vh;
+        width: 100%;
+        top: 0;
+        left: -100%;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        transition: 300ms linear;
+        z-index: 5;
+    }
+
+    .overflow_hidden {
+        overflow: hidden;
+    }
+
+    .menu span:nth-child(1) {
+        height: 4px;
+        width: 35px;
+        background-color: black;
+        display: block;
+    }
+
+    .menu span:nth-child(2) {
+        height: 4px;
+        width: 35px;
+        background-color: black;
+        display: block;
+    }
+
+    .menu span:nth-child(3) {
+        height: 4px;
+        width: 35px;
+        background-color: black;
+        display: block;
+    }
+
+    .menu span {
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(1) {
+        transform: rotate(42deg) translateY(16px);
+        transition: 300ms linear;
+    }
+
+    .cross span:nth-child(2) {
+        transform: translateX(-100%);
+        opacity: 0;
+        transition: 30ms linear;
+    }
+
+    .cross span:nth-child(3) {
+        transform: rotate(-43deg) translateY(-15px);
+        transition: 300ms linear;
+    }
 }
 
 @media (min-width:1200px) {
