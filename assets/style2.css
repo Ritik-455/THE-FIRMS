@@ -241,14 +241,10 @@
 
 }
 
-.max-864 {
-    max-width: 864px;
-}
-
 .w_62 {
     width: 62px;
     opacity: 0.5 !important;
-    justify-content: center;
+
 }
 
 .slick__track {
@@ -442,6 +438,10 @@ element.style {
 }
 
 /* footer */
+
+.bg__gradient{
+    background: linear-gradient(180deg, rgba(245, 246, 247, 0.00) 0%, #F4F4F4 100%);
+}
 @media (min-width:320px) {
     .col-rev {
         flex-direction: column-reverse;

@@ -42,6 +42,45 @@ ul {
     padding-bottom: 50px;
 }
 
+.mt-19 {
+    margin-top: 19px;
+}
+
+.mt-9 {
+    margin-top: 9px;
+}
+
+.gap-20 {
+    gap: 20px;
+}
+
+.mt-35 {
+    margin-top: 35px;
+}
+
+
+.pt-29 {
+    padding-top: 29px;
+}
+
+.pb-55 {
+    padding-bottom: 55px;
+}
+
+.pt-20 {
+    padding-top: 20px;
+}
+
+.py-55 {
+    padding-top: 55px;
+    padding-bottom: 55px;
+}
+.pt-85{
+    padding-top: 85px;
+}
+.mt-29{
+    margin-top: 29px;
+}
 /***************************** padding-margin *******************************/
 .top-btn {
     padding: 9px 21px 10px 22px;
@@ -67,7 +106,7 @@ ul {
     left: 0;
     width: 0;
     height: 4px;
-    background-color: yellow;
+    background-color: #FACA10;
     transition: all 0.3s linear;
     z-index: -1;
 }
@@ -88,7 +127,7 @@ ul {
     left: 0;
     width: 85%;
     height: 4px;
-    background-color: yellow;
+    background-color: #FACA10;
     z-index: -1;
 }
 
@@ -103,7 +142,37 @@ ul {
     left: 4px;
     width: 100%;
     height: 4px;
-    background-color: yellow;
+    background-color: #FACA10;
+    z-index: -1;
+}
+
+.cases_line_nav {
+    position: relative;
+}
+
+.cases_line_nav::after {
+    position: absolute;
+    content: "";
+    bottom: 18%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #FACA10;
+    z-index: -1;
+}
+
+.ipsum_line {
+    position: relative;
+}
+
+.ipsum_line::after {
+    position: absolute;
+    content: "";
+    bottom: 18%;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background-color: #FACA10;
     z-index: -1;
 }
 
@@ -207,6 +276,71 @@ ul {
     width: 100%;
 }
 
+.nav-box {
+    width: 100%;
+    height: 85px;
+}
+
+.bg-grey {
+    background-color: #F7F7F7;
+    ;
+}
+
+.max-w-580 {
+    max-width: 580px;
+}
+
+.digi-btn {
+    padding: 9px 14px 8px 13px;
+    border-radius: 5px;
+    background: #FACA10;
+    box-shadow: 0px 10px 40px -12px rgba(30, 30, 30, 0.35);
+    border: none;
+    transition: 0.3s linear;
+}
+
+.coach-btn {
+    padding: 9px 24px 8px 24px;
+    border-radius: 5px;
+    background: #FACA10;
+    box-shadow: 0px 10px 40px -12px rgba(30, 30, 30, 0.35);
+    border: none;
+    transition: 0.3s linear;
+}
+
+.coach-btn:hover {
+    background-color: #000;
+}
+
+.digi-btn:hover {
+    background-color: #000;
+}
+
+.max-w-600 {
+    max-width: 600px;
+}
+
+.cases-img {
+    border-radius: 36px;
+    border: 8px solid #FFF;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.10);
+}
+
+.ellips-ylw {
+    width: 139px;
+    height: 139px;
+    background-color: #FACA10;
+    opacity: 0.3;
+    border-radius: 50%;
+}
+
+.width-100 {
+    width: 100%;
+}
+.gap-10{
+    gap: 10px;
+}
+
 @media (max-width:992px) {
     .mobile_view {
         position: absolute;
@@ -285,6 +419,25 @@ ul {
     .pt-50 {
         padding-top: 100px;
     }
+
+    .pt-lg-69 {
+        padding-top: 69px;
+    }
+
+    .mt-35 {
+        margin-top: 60px;
+    }
+
+    .pb-55 {
+        padding-bottom: 69px;
+    }
+    .py-55 {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .pt-20 {
+        padding-top:0;
+    }
 }
 
 
@@ -304,6 +457,16 @@ ul {
     .slick-track {
         gap: 59px;
     }
+
+    .position_absolute1 {
+        position: absolute;
+        top: 60%;
+        left: -2%;
+        z-index: 1;
+    }
+    .scale-xl-1{
+        scale: 1.1;
+    }
 }
 
 @media (min-width:1400px) {
@@ -317,6 +480,23 @@ ul {
 
     .pt-17 {
         padding-top: 176px;
+    }
+
+    .width-100 {
+        width: unset;
+    }
+
+    .position_absolute1 {
+        position: absolute;
+        top: 75%;
+        left: -2%;
+        z-index: 1;
+    }
+    .pt-20 {
+        padding-top: 45px;
+    }
+    .scale-xl-1{
+        scale: unset;
     }
 }
 

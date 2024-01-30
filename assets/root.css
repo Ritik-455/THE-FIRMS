@@ -5,11 +5,11 @@
     --fs-md: 12px;
     --fs-lg: 14px;
     --fs-xl: 17px;
-    --fs-2xl: 13px;
+    --fs-2xl: 18px;
     --fs-3xl: 24px;
     --fs-4xl: 30px;
     --fs-5xl: 40px;
-    --fs-6xl: 26px;
+    --fs-6xl: 44px;
     --fs-7xl: 48px;
     --fs-8xl: 52px;
 }
@@ -137,7 +137,7 @@
         --fs-4xl: 30px;
         --fs-5xl: 40px;
         --fs-6xl: 24px;
-        --fs-7xl: 48px;
+        --fs-7xl: 34px;
         --fs-8xl: 52px;
 
     }
@@ -151,7 +151,7 @@
         --fs-xl: 17px;
         --fs-2xl: 18px;
         --fs-3xl: 24px;
-        --fs-4xl: 24px;
+        --fs-4xl: 30px;
         --fs-5xl: 40px;
         --fs-6xl: 44px;
         --fs-7xl: 48px;
@@ -187,9 +187,9 @@
         --fs-xl: 17px;
         --fs-2xl: 13px;
         --fs-3xl: 24px;
-        --fs-4xl: 24px;
+        --fs-4xl: 30px;
         --fs-5xl: 40px;
-        --fs-6xl: 36px;
+        --fs-6xl: 44px;
         --fs-7xl: 48px;
         --fs-8xl: 52px;
 
