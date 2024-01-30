@@ -15,19 +15,20 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="./assets/style.css">
 </head>
+
 <body>
   <header>
     <div class="container pt-3">
-      <nav class="d-flex justify-content-between align-items-center">
+      <nav class="d-flex justify-content-between align-items-center mb-1">
         <img class="cursor-pointer" src="./assets/images/logo.png" alt="logo">
         <ul class="d-flex align-items-center mb-0 gap-4 gap-xxl-5 mobile_view" id="navbar">
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 home_line_nav">Home</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Solutions</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Cases</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">About Us</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Blog</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Contact Us</a></li>
-          <li><button class="nav-btn text-white font-nunito text_18 fw_700 lts_9">Get in Touch</button></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 home_line_nav">Home</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Solutions</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Cases</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">About Us</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Blog</a></li>
+          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Contact Us</a></li>
+          <li><button class="top-btn text-white font-nunito text_18 fw_700 lts-9">Get in Touch</button></li>
         </ul>
         <div onclick="openNav()" class="menu d-block d-xl-none z-7">
           <span></span>
@@ -37,12 +38,31 @@
       </nav>
     </div>
     <!-- hero-section-start -->
-    <div class="bg-hero-img">
+    <div class="bg-hero-img position-relative">
+      <div class="container">
+        <div class="row pb-30">
+          <div class="col-12 col-lg-6 d-flex flex-column justify-content-center pt-17 z-2">
+            <div class="">
+              <h3 class="text-black text_shadow font-nunito text_48 fw_900 lh_133 lts-96 mb-0">Get Bussiness <br>
+                Solutions with <span class="text_52 fw_900 lts-104">TheFirm.</span></h3>
+              <p class="text-black font-lora text_18 fw_400 lh_176 lts-36 mb-0 max-w-437 mt-4">Lorem Ipsum is simply
+                dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.
+              </p>
+              <button class="top-btn text-white font-nunito text_18 fw_700 lts_9 mt-32">Get in Touch</button>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6 mt-30 d-flex flex-column justify-content-center">
+            <img src="./assets/images/hero-img.png" alt="hero-img"
+              class="position_absolute left-39 top-0 z-1 w_100 scale-xl-1 cursor-pointer">
+          </div>
+        </div>
+      </div>
     </div>
   </header>
   <section class="position-relative">
-    <div class="container pt-100">
-      <h1 class="text-black mb-0 text-center font-nunito text_44 fw_900 lh_133 lts-88">Our <span class="partner_line">Partner</span></h1>
+    <div class="container pt-50 pb-50">
+      <h1 class="text-black mb-0 text-center font-nunito text_44 fw_900 lh_133 lts-88">Our <span
+          class="partner_line">Partner</span></h1>
       <div class="slick mt-5">
         <div class="partner_slider_card d-flex justify-content-center align-items-center cursor-pointer">
           <img class="slick-img h-64 w-64" src="./assets/images/microsoft-img.png" alt="microsoft-img">
@@ -61,14 +81,18 @@
         </div>
       </div>
     </div>
-    <div class="slider_btn d-flex justify-content-center align-items-center next">
+    <div
+      class="slider_btn d-none d-xl-flex justify-content-center align-items-center next position-absolute top-55 right-3">
       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
-        <path d="M1.5 1L9 8.5L1.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M1.5 1L9 8.5L1.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
       </svg>
     </div>
-    <div class="slider_btn d-flex justify-content-center align-items-center back">
+    <div
+      class="slider_btn d-none d-xl-flex justify-content-center align-items-center back position-absolute top-55 left-1">
       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
-        <path d="M8.5 1L1 8.5L8.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        <path d="M8.5 1L1 8.5L8.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round"
+          stroke-linejoin="round" />
       </svg>
     </div>
   </section>
