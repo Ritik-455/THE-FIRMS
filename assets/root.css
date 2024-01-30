@@ -126,7 +126,23 @@
 .lts-2 {
     letter-spacing: 2px;
 }
+@media (min-width:320px) {
+    :root {
+        --fs-sm: 10px;
+        --fs-md: 12px;
+        --fs-lg: 14px;
+        --fs-xl: 12px;
+        --fs-2xl: 10px;
+        --fs-3xl: 24px;
+        --fs-4xl: 30px;
+        --fs-5xl: 40px;
+        --fs-6xl: 24px;
+        --fs-7xl: 48px;
+        --fs-8xl: 52px;
 
+    }
+
+}
 @media (min-width:576px) {
     :root {
         --fs-sm: 10px;
@@ -169,7 +185,7 @@
         --fs-md: 12px;
         --fs-lg: 14px;
         --fs-xl: 17px;
-        --fs-2xl: 18px;
+        --fs-2xl: 13px;
         --fs-3xl: 24px;
         --fs-4xl: 24px;
         --fs-5xl: 40px;
