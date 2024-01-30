@@ -75,12 +75,15 @@ ul {
     padding-top: 55px;
     padding-bottom: 55px;
 }
-.pt-85{
+
+.pt-85 {
     padding-top: 85px;
 }
-.mt-29{
+
+.mt-29 {
     margin-top: 29px;
 }
+
 /***************************** padding-margin *******************************/
 .top-btn {
     padding: 9px 21px 10px 22px;
@@ -149,6 +152,7 @@ ul {
 .cases_line_nav {
     position: relative;
 }
+
 
 .cases_line_nav::after {
     position: absolute;
@@ -337,7 +341,8 @@ ul {
 .width-100 {
     width: 100%;
 }
-.gap-10{
+
+.gap-10 {
     gap: 10px;
 }
 
@@ -431,12 +436,14 @@ ul {
     .pb-55 {
         padding-bottom: 69px;
     }
+
     .py-55 {
         padding-top: 100px;
         padding-bottom: 100px;
     }
+
     .pt-20 {
-        padding-top:0;
+        padding-top: 0;
     }
 }
 
@@ -464,7 +471,8 @@ ul {
         left: -2%;
         z-index: 1;
     }
-    .scale-xl-1{
+
+    .scale-xl-1 {
         scale: 1.1;
     }
 }
@@ -492,10 +500,12 @@ ul {
         left: -2%;
         z-index: 1;
     }
+
     .pt-20 {
         padding-top: 45px;
     }
-    .scale-xl-1{
+
+    .scale-xl-1 {
         scale: unset;
     }
 }
