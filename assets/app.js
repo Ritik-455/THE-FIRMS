@@ -14,9 +14,18 @@ function openNav() {
     nextArrow: '.next',
     responsive: [
       {
+        breakpoint: 1210,
+        settings: {
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay:true,
+        }
+      },
+      {
         breakpoint: 1025,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           autoplay:true,
