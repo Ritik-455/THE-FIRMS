@@ -708,7 +708,7 @@ ul {
 }
 
 /***************************** padding-margin *******************************/
-.pt-50 {
+.pt2-50 {
     padding-top: 50px;
 }
 
@@ -728,7 +728,7 @@ ul {
     margin-top: 30px;
 }
 
-.pb-50 {
+.pb2-50 {
     padding-bottom: 50px;
 }
 
@@ -1123,11 +1123,11 @@ ul {
         padding-bottom: 63px;
     }
 
-    .pb-50 {
+    .pb2-50 {
         padding-bottom: 107px;
     }
 
-    .pt-50 {
+    .pt2-50 {
         padding-top: 100px;
     }
 
@@ -1150,6 +1150,10 @@ ul {
 
     .pt-20 {
         padding-top: 0;
+    }
+
+    .pt_39 {
+        padding-top: 40px;
     }
 }
 
@@ -1463,9 +1467,7 @@ ul {
     padding-top: 24px;
 }
 
-.pb__81 {
-    padding-bottom: 81px;
-}
+
 
 /* Our Blogs section */
 /* Testimonials slider section */
@@ -1597,7 +1599,7 @@ element.style {
     border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 19px 34px 14px rgba(0, 0, 0, 0.06);
-    padding: 60px 70px;
+    padding: 30px 35px;
     position: absolute;
     top: 35%;
 
@@ -1916,6 +1918,26 @@ element.style {
 }
 
 
+.show_btn {
+    padding: 12px 37px;
+}
+
+
+
+.to-top-btn {
+    height: 58px;
+    width: 58px;
+    background-color: #FACA10;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+    bottom: 11px;
+    right: 2%;
+    padding: 10px 10px;
+}
+
+
+
 
 
 /* Our Cases section */
@@ -1937,7 +1959,7 @@ element.style {
     }
 
     .touch_card {
-        padding: 30px 35px;
+        /* padding: 30px 35px; */
         height: unset;
     }
 
@@ -2023,9 +2045,12 @@ element.style {
 
 
     }
+    .pt__50{
+        padding-top: 82px;
+    }
 
     .touch_card {
-
+   
         height: 507px;
     }
 
@@ -2062,7 +2087,7 @@ element.style {
     }
 
     .pb__81 {
-        padding-bottom: 81px;
+        padding-bottom: 52px;
     }
 
     .py__100 {
@@ -2080,6 +2105,7 @@ element.style {
 
     .touch_card {
         position: absolute;
+            padding: 60px 74px;
     }
 
     .pt_82 {
