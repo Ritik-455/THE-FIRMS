@@ -1876,11 +1876,12 @@ element.style {
     padding-top: 51px;
 }
 
-
-
-
 .left-39 {
     left: 39.5%;
+}
+
+.show_btn {
+    padding: 12px 37px;
 }
 
 
@@ -1895,6 +1896,7 @@ element.style {
     right: 2%;
     padding: 10px 10px;
 }
+
 
 
 /* Our Cases section */
@@ -1962,7 +1964,9 @@ element.style {
     .pt__182 {
         padding-top: 30px;
     }
-
+.pt__35{
+    padding-top: 35px;
+}
     .gap__58 {
         gap: 15px;
     }
@@ -1977,6 +1981,17 @@ element.style {
 
     .pt___60 {
         padding-top: 30px;
+    }
+
+    .pt___30 {
+        padding-top: 30px;
+    }
+    .pt__56 {
+        padding-top: 56px;
+        padding-bottom: unset;
+    }
+    .flex__col{
+        flex-direction: column;
     }
 }
 
@@ -2069,6 +2084,20 @@ element.style {
 
     .pt___60 {
         padding-top: 60px;
+    }
+    .pt___30 {
+        padding-top: unset;
+    }
+    .pt__56 {
+        padding-top: 56px;
+        padding-bottom: 78px;
+    }
+     .flex__col{
+        flex-direction: unset;
+        padding-top: 20px;
+    }
+    .pt__35{
+        padding-top: unset;
     }
 }
 
