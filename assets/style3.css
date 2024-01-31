@@ -1231,6 +1231,16 @@ ul {
 }
 
 /* vishal------code----start-----here */
+@import url(./root.css);
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box !important;
+    list-style-type: none !important;
+    text-decoration: none !important;
+}
+
 .container_1140 {
     max-width: 1140px;
     margin-left: auto;
@@ -1276,15 +1286,15 @@ ul {
     padding: 12px 30px;
     border-radius: 5px;
     background: #FACA10;
-    border: 1px solid transparent;
+    border: 2px solid #FACA10;
     color: white;
     box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
     transition: all linear 0.3s;
 }
 
 .read_btn:hover {
-    color: white;
-    background: black;
+    color: #FACA10;
+    background: transparent;
 }
 
 .slider_big_box {
@@ -1467,7 +1477,7 @@ ul {
     background: #FACA10;
     left: 0;
     bottom: 13%;
-    z-index: -1;
+    z-index: 0;
     content: '';
 
 }
@@ -1607,6 +1617,22 @@ element.style {
 
 }
 
+.Studies_underline {
+    position: relative;
+}
+
+.Studies_underline::after {
+    max-width: 161px;
+    width: 100%;
+    height: 5.489px;
+    position: absolute;
+    background: #FACA10;
+    left: 0;
+    bottom: 13%;
+    z-index: 0;
+    content: '';
+}
+
 .card__line {
     max-width: 353px;
     height: 2px;
@@ -1625,6 +1651,10 @@ element.style {
 
 .hight__vh {
     height: 46vh;
+}
+
+.map__input {
+    max-width: 300px;
 }
 
 /* live map section  */
@@ -1876,26 +1906,15 @@ element.style {
     padding-top: 51px;
 }
 
+.pt_82 {
+    padding-top: 30px;
+}
+
+
 .left-39 {
     left: 39.5%;
 }
 
-.show_btn {
-    padding: 12px 37px;
-}
-
-
-.to-top-btn {
-    height: 58px;
-    width: 58px;
-    background-color: #FACA10;
-    border-radius: 50%;
-    position: fixed;
-    display: none;
-    bottom: 11px;
-    right: 2%;
-    padding: 10px 10px;
-}
 
 
 
@@ -1939,7 +1958,7 @@ element.style {
     }
 
     .pt__82 {
-        padding-top: 41px;
+
         padding-bottom: 25px;
     }
 
@@ -1964,9 +1983,7 @@ element.style {
     .pt__182 {
         padding-top: 30px;
     }
-.pt__35{
-    padding-top: 35px;
-}
+
     .gap__58 {
         gap: 15px;
     }
@@ -1983,15 +2000,8 @@ element.style {
         padding-top: 30px;
     }
 
-    .pt___30 {
-        padding-top: 30px;
-    }
-    .pt__56 {
-        padding-top: 56px;
-        padding-bottom: unset;
-    }
-    .flex__col{
-        flex-direction: column;
+    .pt__82 {
+        padding-top: 50px;
     }
 }
 
@@ -2047,7 +2057,7 @@ element.style {
     }
 
     .pt__82 {
-        padding-top: 82px;
+        padding-top: unset;
         padding-bottom: 64px;
     }
 
@@ -2071,6 +2081,10 @@ element.style {
     .touch_card {
         position: absolute;
     }
+
+    .pt_82 {
+        padding-top: 82px;
+    }
 }
 
 @media (min-width:992px) {
@@ -2084,20 +2098,6 @@ element.style {
 
     .pt___60 {
         padding-top: 60px;
-    }
-    .pt___30 {
-        padding-top: unset;
-    }
-    .pt__56 {
-        padding-top: 56px;
-        padding-bottom: 78px;
-    }
-     .flex__col{
-        flex-direction: unset;
-        padding-top: 20px;
-    }
-    .pt__35{
-        padding-top: unset;
     }
 }
 
