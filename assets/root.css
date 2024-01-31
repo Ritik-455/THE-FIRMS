@@ -9,9 +9,9 @@
     --fs-3xl: 19px;
     --fs-4xl: 24px;
     --fs-5xl: 25px;
-    --fs-6xl: 29px;
-    --fs-7xl: 30px;
-    --fs-8xl: 40px;
+    --fs-6xl: 35px;
+    --fs-7xl: 36px;
+    --fs-8xl: 38px;
 }
 
 .text_10 {
@@ -136,7 +136,7 @@
         --fs-xl: 17px;
         --fs-2xl: 18px;
         --fs-3xl: 24px;
-        --fs-4xl: 30px;
+        --fs-4xl: 24px;
         --fs-5xl: 40px;
         --fs-6xl: 44px;
         --fs-7xl: 48px;
@@ -176,7 +176,7 @@
         --fs-4xl: 30px;
         --fs-5xl: 40px;
         --fs-6xl: 44px;
-        --fs-7xl: 36px;
+        --fs-7xl: 48px;
         --fs-8xl: 52px;
 
     }

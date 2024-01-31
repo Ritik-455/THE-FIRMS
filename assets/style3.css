@@ -1938,6 +1938,7 @@ element.style {
     bottom: 11px;
     right: 2%;
     padding: 10px 10px;
+    cursor: pointer;
 }
 
 
