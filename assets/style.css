@@ -83,16 +83,16 @@ ul {
 .mt-29 {
     margin-top: 29px;
 }
-<<<<<<< HEAD
-.pt-80{
+
+ .pt-80 {
     padding-top: 80px;
 }
-.pb-84{
+
+.pb-84 {
     padding-bottom: 84px;
 }
-=======
 
->>>>>>> 642d90f9132582c32d5c3c8bcc4280ae5673da6d
+
 /***************************** padding-margin *******************************/
 .top-btn {
     padding: 9px 21px 10px 22px;
@@ -354,9 +354,23 @@ ul {
 .gap-10 {
     gap: 10px;
 }
-.min-w-14{
+
+.min-w-14 {
     min-width: 14px;
 }
+.to-top-btn {
+    height: 58px;
+    width: 58px;
+    background-color: #FACA10;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+    bottom: 11px;
+    right: 2%;
+    padding: 10px 10px;
+    cursor: pointer;
+}
+
 @media (max-width:992px) {
     .mobile_view {
         position: absolute;

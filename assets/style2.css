@@ -83,10 +83,13 @@
     border-radius: 30px 0px 0px 30px;
     background: #FACA10;
     opacity: 0.3;
+    border: 3px solid transparent;
+    border-right: 0 !important;
 }
 
 .nextbtn:hover {
     opacity: 1;
+    border: 3px solid white;
 }
 
 .prevbtn {
@@ -98,10 +101,13 @@
     border-radius: 0px 30px 30px 0px;
     background: #FACA10;
     opacity: 0.3;
+    border: 3px solid transparent;
+    border-left: 0 !important;
 }
 
 .prevbtn:hover {
     opacity: 1;
+    border: 3px solid white;
 }
 
 
@@ -159,9 +165,11 @@
     background: #FFF;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
 }
-.our_Blogs_card:hover{
+
+.our_Blogs_card:hover {
     box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.14);
 }
+
 .px__21 {
     padding-left: 21px;
     padding-right: 21px;
@@ -242,13 +250,15 @@
     background: #FACA10;
     left: 0;
     bottom: 13%;
-    z-index: -1;
+    z-index: 0;
     content: '';
 
 }
-.slider_section_bg_color{
-background-color: #F7F7F7;
+
+.slider_section_bg_color {
+    background-color: #F7F7F7;
 }
+
 .w_62 {
     width: 62px;
     opacity: 0.5 !important;
@@ -283,23 +293,26 @@ background-color: #F7F7F7;
 }
 
 .imgwe::after {
-    content: url(./images/border_png.png);
+    content: url(./images/slider_border_img_1.png);
     position: absolute;
     top: -117%;
     left: -114%;
     opacity: 0;
-    z-index: -1;
-
+    
 }
-.pt__59{
+
+.pt__59 {
     padding-top: 59px;
 }
-.pb__100{
+
+.pb__100 {
     padding-bottom: 100px;
 }
-.pb__80{
+
+.pb__80 {
     padding-bottom: 80px;
 }
+
 .slick-current .imgwe::after {
     opacity: 1;
 }
@@ -308,6 +321,24 @@ background-color: #F7F7F7;
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #FACA10 !important;
+}
+
+.Digital {
+    padding: 12px 12px;
+}
+
+.sarchline {
+    max-width: 200px;
+    height: 2px;
+    background: #A5A5A5;
+}
+
+.sarchinput {
+    max-width: 160px;
+}
+
+.sarchinput__box {
+    max-width: 200px;
 }
 
 .slick-dots li button:before {
@@ -356,10 +387,9 @@ element.style {
     border-radius: 15px;
     background: #FFF;
     box-shadow: 0px 19px 34px 14px rgba(0, 0, 0, 0.06);
-    padding: 60px 70px;
+    padding: 30px 35px;
     position: absolute;
     top: 35%;
-
 }
 
 
@@ -374,6 +404,22 @@ element.style {
     z-index: 0;
     content: '';
 
+}
+
+.Studies_underline {
+    position: relative;
+}
+
+.Studies_underline::after {
+    max-width: 161px;
+    width: 100%;
+    height: 5.489px;
+    position: absolute;
+    background: #FACA10;
+    left: 0;
+    bottom: 13%;
+    z-index: 0;
+    content: '';
 }
 
 .card__line {
@@ -394,6 +440,10 @@ element.style {
 
 .hight__vh {
     height: 46vh;
+}
+
+.map__input {
+    max-width: 300px;
 }
 
 /* live map section  */
@@ -645,13 +695,32 @@ element.style {
     padding-top: 51px;
 }
 
-
+.pt_82 {
+    padding-top: 30px;
+}
 
 
 .left-39 {
     left: 39.5%;
 }
 
+.Digital {
+    padding: 12px 12px;
+}
+
+.sarchline {
+    max-width: 200px;
+    height: 2px;
+    background: #A5A5A5;
+}
+
+.sarchinput {
+    max-width: 160px;
+}
+
+.sarchinput__box {
+    max-width: 200px;
+}
 
 
 
@@ -675,7 +744,6 @@ element.style {
     }
 
     .touch_card {
-        padding: 30px 35px;
         height: unset;
     }
 
@@ -695,8 +763,12 @@ element.style {
         padding-bottom: 50px;
     }
 
+    .pt__50 {
+        padding-top: 50px;
+    }
+
     .pt__82 {
-        padding-top: 41px;
+
         padding-bottom: 25px;
     }
 
@@ -709,9 +781,7 @@ element.style {
         padding-bottom: 50px;
     }
 
-    .pt__50 {
-        padding-top: 50px;
-    }
+
 
     .touch_card {
         position: unset;
@@ -737,6 +807,10 @@ element.style {
     .pt___60 {
         padding-top: 30px;
     }
+
+    .pt__82 {
+        padding-top: 50px;
+    }
 }
 
 @media (min-width:576px) {
@@ -759,10 +833,8 @@ element.style {
     }
 
     .touch_card {
-
         height: 507px;
     }
-
     .pt__53 {
         padding-top: 53px;
     }
@@ -773,6 +845,10 @@ element.style {
 
     .pt__100 {
         padding-top: 100px;
+    }
+
+    .pt__50 {
+        padding-top: 82px;
     }
 }
 
@@ -791,7 +867,7 @@ element.style {
     }
 
     .pt__82 {
-        padding-top: 82px;
+        padding-top: unset;
         padding-bottom: 64px;
     }
 
@@ -814,6 +890,11 @@ element.style {
 
     .touch_card {
         position: absolute;
+        padding: 60px 74px;
+    }
+
+    .pt_82 {
+        padding-top: 82px;
     }
 }
 
@@ -925,6 +1006,7 @@ element.style {
         transition: 300ms linear;
     }
 }
+
 @media (min-width:1500px) {
     .left-39 {
         left: 40.5%;
