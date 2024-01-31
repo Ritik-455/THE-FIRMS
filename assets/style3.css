@@ -1845,17 +1845,28 @@ element.style {
     padding-top: 51px;
 }
 
-
-
-
 .left-39 {
     left: 39.5%;
 }
 
+.show_btn {
+    padding: 12px 37px;
+}
 
-
-
-
+.Digital {
+    padding: 12px 12px;
+}
+.sarchline{
+    max-width: 200px;
+    height: 2px;
+    background: #A5A5A5;
+}
+.sarchinput{
+    max-width: 160px;
+}
+.sarchinput__box{
+    max-width: 200px;
+}
 /* Our Cases section */
 @media (min-width:320px) {
     .col-rev {
@@ -1921,7 +1932,9 @@ element.style {
     .pt__182 {
         padding-top: 30px;
     }
-
+.pt__35{
+    padding-top: 35px;
+}
     .gap__58 {
         gap: 15px;
     }
@@ -1936,6 +1949,17 @@ element.style {
 
     .pt___60 {
         padding-top: 30px;
+    }
+
+    .pt___30 {
+        padding-top: 30px;
+    }
+    .pt__56 {
+        padding-top: 56px;
+        padding-bottom: unset;
+    }
+    .flex__col{
+        flex-direction: column;
     }
 }
 
@@ -2028,6 +2052,20 @@ element.style {
 
     .pt___60 {
         padding-top: 60px;
+    }
+    .pt___30 {
+        padding-top: unset;
+    }
+    .pt__56 {
+        padding-top: 56px;
+        padding-bottom: 78px;
+    }
+     .flex__col{
+        flex-direction: unset;
+        padding-top: 20px;
+    }
+    .pt__35{
+        padding-top: unset;
     }
 }
 
