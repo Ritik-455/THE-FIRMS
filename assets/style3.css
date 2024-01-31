@@ -6,6 +6,21 @@
     box-sizing: border-box;
 }
 
+::-webkit-scrollbar {
+    width: 10px !important;
+    height: 9px !important;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background-color: #FACA10;
+}
+
+::-webkit-scrollbar-thumb {
+    background: white;
+    width: 10px !important;
+}
+
 
 ol,
 ul {
@@ -277,7 +292,7 @@ ul {
     max-width: 464px;
 }
 
-.read_btn {
+.read_btn2 {
     padding: 12px 30px;
     border-radius: 5px;
     background: #FACA10;
@@ -286,7 +301,7 @@ ul {
     transition: 300ms linear;
 }
 
-.read_btn:hover {
+.read_btn2:hover {
     background-color: #1E1E1E;
     color: white;
 }
@@ -427,12 +442,16 @@ ul {
 .coaching_box {
     max-width: 340px;
     width: 100%;
-    padding: 10px 11px 32px 10px;
+    /* padding: 10px 11px 32px 10px; */
     border-radius: 15px;
     border: 1px solid rgba(250, 202, 16, 0.40);
     background: #FFF;
     box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, 0.09);
     transition: 300ms linear;
+}
+
+.coaching_box_pding {
+    padding: 30px 11px 32px 21px;
 }
 
 .coaching_box:hover {
@@ -926,8 +945,8 @@ ul {
 }
 
 
-.right-3 {
-    right: 3%;
+.right-2 {
+    right: 2%;
 }
 
 /* .slick_track {
@@ -943,7 +962,7 @@ ul {
     height: 142px;
 } */
 
-.slider_btn {
+.slider_btn_2 {
     width: 50px;
     height: 50px;
     border-radius: 50%;
@@ -951,8 +970,20 @@ ul {
     filter: drop-shadow(0px 10px 40px rgba(250, 202, 16, 0.35));
 }
 
+.slick-slide_2 {
+    display: none;
+    float: left;
+    height: 120px !important;
+    min-height: 1px;
+    width: 100%;
+}
+
 .w_100 {
     width: 100%;
+}
+
+.top-57 {
+    top: 57%;
 }
 
 .nav-box {
@@ -1245,15 +1276,15 @@ ul {
     padding: 12px 30px;
     border-radius: 5px;
     background: #FACA10;
-    border: 2px solid #FACA10;
+    border: 1px solid transparent;
     color: white;
     box-shadow: 0px 10px 40px -12px rgba(250, 202, 16, 0.35);
     transition: all linear 0.3s;
 }
 
 .read_btn:hover {
-    color: #FACA10;
-    background: transparent;
+    color: white;
+    background: black;
 }
 
 .slider_big_box {
@@ -1852,6 +1883,22 @@ element.style {
 .show_btn {
     padding: 12px 37px;
 }
+
+
+
+.to-top-btn {
+    height: 58px;
+    width: 58px;
+    background-color: #FACA10;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+    bottom: 11px;
+    right: 2%;
+    padding: 10px 10px;
+}
+
+
 
 
 /* Our Cases section */

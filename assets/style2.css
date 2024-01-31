@@ -693,7 +693,23 @@ element.style {
 .left-39 {
     left: 39.5%;
 }
+.Digital {
+    padding: 12px 12px;
+}
 
+.sarchline {
+    max-width: 200px;
+    height: 2px;
+    background: #A5A5A5;
+}
+
+.sarchinput {
+    max-width: 160px;
+}
+
+.sarchinput__box {
+    max-width: 200px;
+}
 
 
 

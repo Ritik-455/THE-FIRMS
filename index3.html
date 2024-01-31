@@ -4,7 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Bootstrap demo</title>
+  <title>THE FIRM</title>
+  <link rel="icon" href="./assets/images/Cases_img_1.png">
   <link rel="stylesheet" href="./assets/style3.css">
   <link rel="stylesheet" href="./assets/root.css">
   <!-- <link rel="stylesheet" href="./assets/style.css"> -->
@@ -28,12 +29,15 @@
       <nav class="d-flex justify-content-between align-items-center mb-1">
         <img class="cursor-pointer" src="./assets/images/logo.png" alt="logo">
         <ul class="d-flex align-items-center mb-0 gap-4 gap-xxl-5 mobile_view" id="navbar">
-          <li><a href="./index3.html" class="text-black font-nunito text_18 fw_700 lts-9 home_line_nav">Home</a></li>
-          <li><a href="./solution.html" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Solutions</a></li>
-          <li><a href="./cases.html" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Cases</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">About Us</a></li>
-          <li><a href="" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Blog</a></li>
-          <li><a href="./digital-journey.html" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Contact
+          <li><a href="./index3.html" onclick=" openNav()"
+              class="text-black font-nunito text_18 fw_700 lts-9 home_line_nav">Home</a></li>
+          <li><a href="./solution.html" onclick=" openNav()"
+              class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Solutions</a></li>
+          <li><a href="./cases.html" onclick=" openNav()"
+              class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Cases</a></li>
+          <li><a href="" onclick=" openNav()" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">About Us</a></li>
+          <li><a href="" onclick=" openNav()" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Blog</a></li>
+          <li><a href="./digital-journey.html" onclick=" openNav()" class="text-black font-nunito text_18 fw_700 lts-9 line_nav">Contact
               Us</a></li>
           <li><button class="top-btn text-white font-nunito text_18 fw_700 lts-9">Get in Touch</button></li>
         </ul>
@@ -66,43 +70,48 @@
       </div>
     </div>
   </header>
-  <!-- <section class="position-relative">
+  <section class="position-relative">
     <div class="container pt-50 pb-50">
       <h1 class="text-black mb-0 text-center font-nunito text_44 fw_900 lh_133 lts-88">Our <span
           class="partner_line">Partner</span></h1>
       <div class="slick   mt-5">
-        <div class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer">
+        <div
+          class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer slick-slide_2 slick_track_2">
           <img class="slick-img h-64 w-64" src="./assets/images/microsoft-img.png" alt="microsoft-img">
         </div>
-        <div class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer">
+        <div
+          class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer slick-slide_2 slick_track_2">
           <img class="slick-img" src="./assets/images/google-img.png" alt="google-img">
         </div>
-        <div class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer">
+        <div
+          class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer slick-slide_2 slick_track_2">
           <img class="slick-img w-162 h-60" src="./assets/images/firefox-world-logo.png" alt="firefox-img">
         </div>
-        <div class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer">
+        <div
+          class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer slick-slide_2 slick_track_2">
           <img class="slick-img w-160 h-60" src="./assets/images/safari-img.png" alt="safari-img">
         </div>
-        <div class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer">
+        <div
+          class="partner_slider_card  d-flex justify-content-center align-items-center cursor-pointer slick-slide_2 slick_track_2">
           <img class="slick-img" src="./assets/images/google-img.png" alt="google-img">
         </div>
       </div>
     </div>
     <div
-      class="slider_btn d-none d-xl-flex justify-content-center align-items-center next position-absolute top-55 right-3">
+      class="slider_btn_2 d-none d-xl-flex justify-content-center align-items-center next position-absolute top-57 right-2">
       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
         <path d="M1.5 1L9 8.5L1.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round"
           stroke-linejoin="round" />
       </svg>
     </div>
     <div
-      class="slider_btn d-none d-xl-flex justify-content-center align-items-center back position-absolute top-55 left-1">
+      class="slider_btn_2 d-none d-xl-flex justify-content-center align-items-center back position-absolute top-55 left-1">
       <svg xmlns="http://www.w3.org/2000/svg" width="10" height="17" viewBox="0 0 10 17" fill="none">
         <path d="M8.5 1L1 8.5L8.5 16" stroke="#1E1E1E" stroke-width="2" stroke-linecap="round"
           stroke-linejoin="round" />
       </svg>
     </div>
-  </section>  -->
+  </section>
   <!-- ritik-code-ends--here -->
 
   <!-- features___section -->
@@ -401,7 +410,9 @@
               a
               type specimen
               book. It has survived not only five centuries,</p>
-            <button class="text-white font-nunito text_18 fw_700 lts-9 read_btn mt_40">Read More</button>
+            <button class=" read_btn2 mt_40"><a class="text-white font-nunito text_18 fw_700 lts-9"
+                href="./solution.html">Read
+                More</a></button>
           </div>
         </div>
 
@@ -433,14 +444,15 @@
           <div class="yellow_circle"></div>
           <div class="yellow_line"></div>
           <div class="chain_box market">
-            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket text-nowrap">Market Research</h5>
+            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket text-nowrap cursor-pointer">Market
+              Research</h5>
           </div>
         </div>
         <div class="d-flex align-items-center main_spply">
           <div class="yellow_circle"></div>
           <div class="yellow_line"></div>
           <div class="chain_box branding">
-            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket ">Branding
+            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket   cursor-pointer">Branding
             </h5>
           </div>
         </div>
@@ -448,14 +460,14 @@
           <div class="yellow_circle"></div>
           <div class="yellow_line"></div>
           <div class="chain_box reporting">
-            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket">Reporting</h5>
+            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket  cursor-pointer">Reporting</h5>
           </div>
         </div>
         <div class="d-flex align-items-center main_spply">
           <div class="yellow_circle"></div>
           <div class="yellow_line"></div>
           <div class="chain_box data ">
-            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket">Data Analysis</h5>
+            <h5 class="text_grey font-nunito  text_18 fw_700 lts-9 mb-0 mrket  cursor-pointer">Data Analysis</h5>
           </div>
         </div>
       </div>
@@ -471,7 +483,7 @@
           </div>
           <div class="col-lg-6 col-12 pt-4 pt-lg-0">
             <div class="d-flex align-items-start gap_14">
-              <svg xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none">
+              <svg class="" xmlns="http://www.w3.org/2000/svg" width="66" height="66" viewBox="0 0 66 66" fill="none">
                 <g style="mix-blend-mode:multiply" opacity="0.1">
                   <circle cx="33" cy="33" r="33" fill="#FACA10" />
                 </g>
@@ -526,7 +538,7 @@
                   has been the
                   industry standard
                   dummy text ever since the 1500s, when an unknown printer took a galley of type</p>
-                <button class="text-white font-nunito text_18 fw_700 lts-9 read_btn mt_30">Read More</button>
+                <button class="text-white font-nunito text_18 fw_700 lts-9 read_btn2 mt_30">Read More</button>
 
               </div>
             </div>
@@ -855,12 +867,13 @@
         <img src="./assets/images/logo.png" alt="">
       </div>
       <ul class="d-flex gap__58 flex-wrap justify-content-center pt-5">
-        <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 home_line_nav">Home</a></li>
-        <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Solutions</a></li>
-        <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Cases</a></li>
+        <li><a href="./index3.html" class="text-black font-nunito text_18 fw_700 lts_9 home_line_nav">Home</a></li>
+        <li><a href="./solution.html" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Solutions</a></li>
+        <li><a href="./cases.html" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Cases</a></li>
         <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">About Us</a></li>
         <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Blog</a></li>
-        <li><a href="" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Contact Us</a></li>
+        <li><a href="./digital-journey.html" class="text-black font-nunito text_18 fw_700 lts_9 line_nav">Contact Us</a>
+        </li>
       </ul>
 
       <div class="d-flex gap__44 justify-content-center pt__60">
@@ -894,10 +907,28 @@
           </svg></a>
       </div>
 
-      <p class="py-4 font-nunito text_12 mb-0 fw_400 text-center copyright_text lts-312 lh_133">Copyrights ©2020
-        Thefirm. All Right Reserved</p>
+      <p class="py-4 font-nunito text_12 mb-0 fw_400 text-center copyright_text lts-312 lh_133">Copyrights
+        <script>document.write(new Date().getFullYear());</script>
+        Thefirm. All Right Reserved
+      </p>
+    </div>
+    <div class="to-top-btn" onclick="topfuncition()" id="top-button">
+      <svg width="38" height="37" viewBox="0 0 38 37" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <g clip-path="url(#clip0_36698_752)">
+          <path d="M20.5103 18.4993V30.5827H17.4894V18.4993H6.9165L18.9998 6.41602L31.0832 18.4993H20.5103Z"
+            fill="white" />
+        </g>
+        <defs>
+          <clipPath id="clip0_36698_752">
+            <rect width="36.25" height="36.25" fill="white" transform="translate(0.875 0.375)" />
+          </clipPath>
+        </defs>
+      </svg>
+    </div>
+
     </div>
   </footer>
+
 
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
     integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
@@ -909,6 +940,7 @@
     integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
     crossorigin="anonymous"></script>
   <script src="./assets/app.js"></script>
+
 
 
 

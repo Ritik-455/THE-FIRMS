@@ -2,7 +2,22 @@ function openNav() {
     document.getElementById("navbar").classList.toggle("start-0");
     document.body.classList.toggle("overflow_hidden");
     document.querySelector(".menu").classList.toggle("cross")
+}
+let mybutton = document.getElementById("top-button")
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block"
+  } else {
+    mybutton.style.display = "none"
   }
+};
+
+function topfuncition() {
+  window.scrollTo({ top: 0, behavior: "smooth" });
+}
 
   $('.slick').slick({
     dots: false,
@@ -14,9 +29,18 @@ function openNav() {
     nextArrow: '.next',
     responsive: [
       {
-        breakpoint: 1024,
+        breakpoint: 1210,
         settings: {
-          slidesToShow: 4,
+          slidesToShow: 3,
+          slidesToScroll: 1,
+          infinite: true,
+          autoplay:true,
+        }
+      },
+      {
+        breakpoint: 1025,
+        settings: {
+          slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
           autoplay:true,
@@ -28,6 +52,7 @@ function openNav() {
           slidesToShow: 3,
           slidesToScroll: 1,
           infinite: true,
+          autoplay:true,
           
         }
       },
