@@ -1884,7 +1884,17 @@ element.style {
 }
 
 
-
+.to-top-btn {
+    height: 58px;
+    width: 58px;
+    background-color: #FACA10;
+    border-radius: 50%;
+    position: fixed;
+    display: none;
+    bottom: 11px;
+    right: 2%;
+    padding: 10px 10px;
+}
 
 
 /* Our Cases section */
