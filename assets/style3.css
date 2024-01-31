@@ -593,10 +593,9 @@ ul {
         padding-top: 82px;
     }
 
-
-
-
-
+    .pl_29 {
+        padding-left: 29px;
+    }
 
 
 }
@@ -1380,7 +1379,7 @@ ul {
     position: absolute;
     background: #FACA10;
     left: 0;
-    bottom: 13%;
+    bottom: 16%;
     z-index: -1;
     content: '';
 
@@ -2045,12 +2044,13 @@ element.style {
 
 
     }
-    .pt__50{
+
+    .pt__50 {
         padding-top: 82px;
     }
 
     .touch_card {
-   
+
         height: 507px;
     }
 
@@ -2105,7 +2105,7 @@ element.style {
 
     .touch_card {
         position: absolute;
-            padding: 60px 74px;
+        padding: 60px 74px;
     }
 
     .pt_82 {
