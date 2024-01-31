@@ -1510,12 +1510,11 @@ ul {
 }
 
 .imgwe::after {
-    content: url(./images/border_png.png);
+    content: url(./images/slider_border_img_1.png);
     position: absolute;
     top: -117%;
     left: -114%;
     opacity: 0;
-    z-index: -1;
 
 }
 
