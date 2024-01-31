@@ -317,6 +317,20 @@
     opacity: .75;
     color: #FACA10 !important;
 }
+.Digital {
+    padding: 12px 12px;
+}
+.sarchline{
+    max-width: 200px;
+    height: 2px;
+    background: #A5A5A5;
+}
+.sarchinput{
+    max-width: 160px;
+}
+.sarchinput__box{
+    max-width: 200px;
+}
 
 .slick-dots li button:before {
     font-family: 'slick';

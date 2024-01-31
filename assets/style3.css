@@ -1853,20 +1853,7 @@ element.style {
     padding: 12px 37px;
 }
 
-.Digital {
-    padding: 12px 12px;
-}
-.sarchline{
-    max-width: 200px;
-    height: 2px;
-    background: #A5A5A5;
-}
-.sarchinput{
-    max-width: 160px;
-}
-.sarchinput__box{
-    max-width: 200px;
-}
+
 /* Our Cases section */
 @media (min-width:320px) {
     .col-rev {
