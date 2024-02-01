@@ -352,7 +352,6 @@ ul {
     border: 2px solid #F7F7F7;
     background: #FFF;
     box-shadow: 0px 10px 40px -12px rgba(196, 196, 196, 0.35);
-
     transition: 300ms linear;
 }
 
@@ -386,8 +385,16 @@ ul {
     border: 2px solid #FACA10;
 }
 
-.main_spply:hover h5 {
+.main_spply:hover button {
     color: white;
+}
+
+.d_none {
+    display: none !important;
+}
+
+.d_block {
+    display: block !important;
 }
 
 
