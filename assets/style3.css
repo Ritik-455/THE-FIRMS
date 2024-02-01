@@ -89,7 +89,9 @@ ul {
     padding-top: 22px;
 }
 
-
+.pt-49{
+    padding-top: 49px;
+}
 .pt_26 {
     padding-top: 26px;
 }
@@ -239,7 +241,17 @@ ul {
     background: #FFF;
     border: 1px solid #FACA10;
 }
-
+.solution_box:hover {
+    max-width: 285px;
+    padding: 52px 25px 51px 27px;
+    border-radius: 30px;
+    background: #FFF;
+    border: 1px solid #FACA10;
+    box-shadow: 0px 0px 20px 0px #00000024;
+}
+.bg_grey2{
+    background-color: #FBFBFB;
+}
 .t_postion {
     top: 37%;
     left: 31%;
